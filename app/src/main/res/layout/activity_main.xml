@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_margin="@dimen/padding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_heigth" android:orientation="horizontal">
+        <Button
+            android:id="@+id/camera"
+            android:textColor="@color/beyaz"
+            android:text="@string/fotograf"
+            android:background="@color/yesil"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_heigth"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/video_cek"
+            android:textColor="@color/beyaz"
+            android:layout_marginLeft="@dimen/padding"
+            android:text="@string/video"
+            android:background="@color/mavi"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_heigth"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="@dimen/padding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_heigth" android:orientation="horizontal">
+        <Button
+            android:onClick="sesKayit"
+            android:textColor="@color/beyaz"
+            android:text="@string/seskayit"
+            android:background="@color/mor"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_heigth"
+            android:layout_weight="1"/>
+        <Button
+            android:onClick="haritayaGit"
+            android:textColor="@color/beyaz"
+            android:layout_marginLeft="@dimen/padding"
+            android:text="@string/harita"
+            android:background="@color/turuncu"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_heigth"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="@dimen/padding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_heigth" android:orientation="horizontal">
+        <Button
+            android:textColor="@color/beyaz"
+            android:text="@string/sms"
+            android:background="@color/lacivert"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_heigth"
+            android:layout_weight="1"/>
+        <Button
+            android:textColor="@color/beyaz"
+            android:text="@string/arama"
+            android:layout_marginLeft="@dimen/padding"
+            android:background="@color/kirmizi"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_heigth"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
