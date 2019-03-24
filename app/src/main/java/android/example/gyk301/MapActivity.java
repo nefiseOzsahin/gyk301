@@ -23,6 +23,7 @@ public class MapActivity extends AppCompatActivity {
         openMapPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //deneme
                 //Ä°stanbul enlem ve boylam
                 Uri geoLocation = Uri.parse("geo:41.0138400,28.9496600");
                 showMap(geoLocation);
